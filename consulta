@@ -1,0 +1,12 @@
+consulta 
+def consultar_usuario():
+    print("Pesquisando usuário")
+    print("Buscando por nome, CPF ou e-mail")
+    print("Aplicando filtro de status")
+    print("Exibindo resultados encontrados")
+
+def consultar_usuario(termo, status):
+    print(f"Pesquisando usuário: {termo}")
+    print(f"Filtrando por status: {status}")
+    print("Comparando com a base de cadastros")
+    print("Exibindo resultados encontrados")
