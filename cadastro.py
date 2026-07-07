@@ -1,7 +1,5 @@
-import os
 import time
 from pathlib import Path
-import base64
 import pandas as pd
 
 from botcity.web import WebBot, Browser, By
